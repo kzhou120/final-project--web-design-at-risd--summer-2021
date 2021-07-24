@@ -46,10 +46,10 @@ a {
   justify-content: flex-start;
 }
 
-#first img{
-  width: 200px;
-  height: 200px;
-  justify-content: space-around;
+#first img {
+  width: 360px;
+  height: 360px;
+  margin-left: 40px;
 }
 
 #second {
