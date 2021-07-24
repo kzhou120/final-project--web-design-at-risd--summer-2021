@@ -20,6 +20,11 @@ header {
   padding-right: 20px;
 }
 
+#header-text {
+  display: flex;
+  flex-direction: column;
+}
+
 ul {
   display: flex;
   margin: auto;
