@@ -19,3 +19,10 @@ header {
   border-radius: 50%;
   padding-right: 20px;
 }
+
+ul {
+  display: flex;
+  margin: auto;
+  padding-left: 122px;
+  margin-top: -30px;
+}
