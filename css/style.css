@@ -54,10 +54,16 @@ a {
 
 #second {
   display: flex;
+  justify-content: flex-start;
+  padding-top: 30px;
 }
 
-#second img{
-  width: 200px;
-  height: 200px;
-  justify-content: space-around;
+#second img {
+  width: 360px;
+  height: 360px;
+  margin-left: 40px;
+}
+
+#gallery {
+  padding: 80px;
 }
