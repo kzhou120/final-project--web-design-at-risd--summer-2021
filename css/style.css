@@ -41,6 +41,10 @@ a {
   color: #222;
 }
 
+h2 {
+  font: 400 20px / 2 Lato, sans-serif;
+}
+
 #first {
   display: flex;
   justify-content: flex-start;
