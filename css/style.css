@@ -6,4 +6,11 @@ header {
   font: 400 50px / 2 'Single Day', cursive;
 }
 
+#header {
+  display: flex;
+}
+
+#header img {
+  width: 150px;
+  height: 150px;
 }
