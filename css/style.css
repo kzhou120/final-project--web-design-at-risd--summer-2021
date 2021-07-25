@@ -76,3 +76,22 @@ h2 {
   padding-top: 30px;
   text-align: center;
 }
+
+#about {
+  padding-top: 30px;
+  display: flex;
+  padding-left: 170px;
+  padding-right: 170px;
+  align-items: flex-start;
+}
+
+#about img{
+  height: 500px;
+}
+
+#about-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 30px;
+}
