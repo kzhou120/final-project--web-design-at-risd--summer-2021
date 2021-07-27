@@ -14,8 +14,7 @@ header {
 }
 
 #header img {
-  height: 200px;
-  padding-right: 20px;
+  height: 180px;
 }
 
 #header-text {
@@ -69,6 +68,7 @@ h2 {
 }
 
 #gallery {
+  margin-top: -60px;
   padding: 80px;
 }
 
@@ -78,6 +78,7 @@ h2 {
 }
 
 #about {
+  margin-top: -60px;
   padding-top: 30px;
   display: flex;
   padding-left: 170px;
@@ -85,8 +86,14 @@ h2 {
   align-items: flex-start;
 }
 
+#about h2 {
+  text-align: center;
+}
+
 #about img {
-  height: 500px;
+  height: 400px;
+  padding-top: 30px;
+  justify-content: center;
 }
 
 #about-text {
@@ -94,6 +101,8 @@ h2 {
   flex-direction: column;
   justify-content: center;
   padding-left: 30px;
+  padding-top: 10px;
+  margin-right: 50px;
 }
 
 #landing {
@@ -205,4 +214,11 @@ h2 {
 #right {
   margin: 0;
   padding: 0;
+}
+
+.border {
+  margin: auto;
+  display: block;
+  height: 100px;
+  width: 100%;
 }
