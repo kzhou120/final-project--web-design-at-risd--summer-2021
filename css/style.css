@@ -48,6 +48,7 @@ h2 {
 #first {
   display: flex;
   justify-content: flex-start;
+  padding-left: 30px;
 }
 
 #first img {
@@ -60,6 +61,7 @@ h2 {
   display: flex;
   justify-content: flex-start;
   padding-top: 30px;
+  padding-left: 30px;
 }
 
 #second img {
