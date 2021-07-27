@@ -156,3 +156,53 @@ h2 {
   width: 400px;
 }
 
+#left img:last-child {
+  display: none;
+}
+
+#left:hover img:last-child {
+  display: inline-block;
+}
+
+#left:hover img:first-child {
+  display: none;
+}
+
+#mid img:last-child {
+  display: none;
+}
+
+#mid:hover img:last-child {
+  display: inline-block;
+}
+
+#mid:hover img:first-child {
+  display: none;
+}
+
+#right img:last-child {
+  display: none;
+}
+
+#right:hover img:last-child {
+  display: inline-block;
+}
+
+#right:hover img:first-child {
+  display: none;
+}
+
+#left {
+  margin: 0;
+  padding: 0;
+}
+
+#mid {
+  margin: 0;
+  padding: 0;
+}
+
+#right {
+  margin: 0;
+  padding: 0;
+}
