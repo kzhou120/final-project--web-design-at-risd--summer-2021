@@ -126,3 +126,33 @@ h2 {
   position: relative;
 }
 
+#landing-text {
+  display: flex;
+  justify-content: center;
+  margin-left: -70px;
+}
+
+#landing-text h2 {
+  margin-left: 90px;
+}
+
+.outer {
+  display: table;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.middle {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.inner {
+  margin-left: auto;
+  margin-right: auto;
+  width: 400px;
+}
+
