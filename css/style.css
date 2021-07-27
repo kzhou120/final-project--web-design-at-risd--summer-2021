@@ -44,24 +44,12 @@ h2 {
 
 #first {
   display: flex;
-  justify-content: flex-start;
-  padding-left: 30px;
+  justify-content: center;
+  flex-wrap: wrap;
+  overflow: hidden;
 }
 
 #first img {
-  width: 360px;
-  height: 360px;
-  margin-left: 40px;
-}
-
-#second {
-  display: flex;
-  justify-content: flex-start;
-  padding-top: 30px;
-  padding-left: 30px;
-}
-
-#second img {
   width: 360px;
   height: 360px;
   margin-left: 40px;
@@ -73,7 +61,7 @@ h2 {
 }
 
 #contact {
-  margin-top: -40px;
+  margin-top: -20px;
   text-align: center;
 }
 
@@ -93,7 +81,8 @@ h2 {
 #about img {
   height: 400px;
   padding-top: 30px;
-  justify-content: center;
+  margin: auto;
+  position: relative;
 }
 
 #about-text {
