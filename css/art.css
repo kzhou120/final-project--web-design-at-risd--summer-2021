@@ -1,5 +1,5 @@
 .artwork img {
-  height: 800px;
+  height: 700px;
 }
 
 .artwork {
@@ -11,4 +11,11 @@
 .artwork p {
   font-size: 16px;
   padding-bottom: 20px;
+}
+
+@media (max-width: 1022px) {
+  div {
+    flex-wrap: wrap;
+    overflow: hidden;
+  }
 }
